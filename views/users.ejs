@@ -1,0 +1,44 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="">
+                <div class="form-group mb-3">
+                    <label for="bloodGroup" class="form-label">Blood Group <span class="text-danger">*</span></label>
+                    <select name="bloodGroup" class="form-control" id="bloodGroup" >
+                        <option value="a+">A+</option>
+                    </select>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="allergies" class="form-label"> Allergies <span class="text-danger">*</span></label>
+                    <input type="text" name="allergies" id=" allergies" class="form-control"  placeholder="Enter your allergies details  e.g-egg,fish" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for=" medicalProblems" class="form-label"> Medical Problems <span class="text-danger">*</span></label>
+                    <input type="text" name=" medicalProblems" id=" medicalProblems" class="form-control"  placeholder="Enter your medical problems" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="" class="form-label"> Skills <span class="text-danger">*</span></label>
+                    <select name="skills" class="form-control" id="skills" >
+                        <option value="a+">A+</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
